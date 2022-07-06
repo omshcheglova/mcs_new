@@ -1,0 +1,14 @@
+body {
+    padding: 0px 10px 0 25px; 
+}
+
+h1, h2 {
+    color: white;
+    background-color: black;
+    margin-top: 25px;
+}
+
+p {
+    text-align: justify;
+    margin-bottom: 25px;
+  }
