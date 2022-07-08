@@ -9,8 +9,6 @@
     background: url("images/img.svg")  no-repeat;
     width: 1440px;
     height: 1000px;
-    
-    
 }
 
 .header {
@@ -52,6 +50,26 @@ a {
     color: #FFFFFF;
 }
 
+.about {
+    display: flex;
+    
+    background-color: #FFFFFF;
+    align-items: center;
+    justify-content: space-between;
+    /*border: 1px solid black;*/
+}
+
+.text {
+    margin-left: 80px;
+    margin-top: 50px;
+    font-family: 'Helvetica';
+    font-size: large;
+    
+}
+.text-last {
+    margin-bottom: 50px;
+}
+
 .footer {
     display: flex;
     background-color: #E5E000;
@@ -75,24 +93,4 @@ a {
     color: #FFFFFF;
     margin-right: 80px;
     /*border: 1px solid black;*/
-}
-
-.about {
-    display: flex;
-    
-    background-color: #FFFFFF;
-    align-items: center;
-    justify-content: space-between;
-    /*border: 1px solid black;*/
-}
-
-.text {
-    margin-left: 80px;
-    margin-top: 50px;
-    font-family: 'Helvetica';
-    font-size: large;
-    
-}
-.text-last {
-    margin-bottom: 50px;
 }
