@@ -17,19 +17,14 @@
 
 .main-page{
     display: flex;
+    justify-content: center;
     align-items: stretch;
     background-color: #E5E5E5;
      /*border: 1px solid black;*/
 }
 
 .column{
-
-    display: flexbox;
-    justify-content: flex-start;
-    margin-left: 25px;
-    margin-right: 25px;
-    margin-bottom: 25px;
-    margin-top: 25px;
+    margin: 25px;
     border: 5px solid #E5E000;
     border-radius: 30px;  
 }

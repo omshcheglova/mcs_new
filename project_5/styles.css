@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 140px;
+  background: #ffffff;
+
+  justify-content: space-between;
+  align-content: center;
+  z-index: 2;
+}
+
+.text-header {
+  margin: 50px;
+  font-family: "Arial";
+  font-style: normal;
+  color: #e50043;
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+
+a:visited,
+a:link {
+  display: flex;
+  margin: 25px;
+  font-family: "Arial";
+  font-style: normal;
+  color: #e50043;
+  text-decoration: none;
+}
+
+.text-background {
+  display: flex;
+  position: absolute;
+  top: 140px;
+  left: 0px;
+  background: url("images/evian_origins_logo.png") no-repeat;
+  background-size: cover;
+
+  width: 100%;
+  height: 100%;
+
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 100px;
+  line-height: 115px;
+  align-items: center;
+  justify-content: center;
+  color: #e50043;
+}
+
+.hero {
+  position: absolute;
+  top: 1140px;
+  justify-content: space-between;
+  align-content: space-between;
+}
+
+.border {
+  border: 3px solid #f8bfc7;
+  border-radius: 20px;
+  padding: 24px;
+  margin: 201px;
+}
+
+.hero-header-text {
+  font-family: "Arial";
+  font-size: 25px;
+  line-height: 29px;
+  color: #000000;
+  letter-spacing: 0.05em;
+  margin-bottom: 25px;
+}
+
+.bottles {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.bootles-text {
+  font-family: "Arial";
+  font-size: 25px;
+  line-height: 29px;
+  align-items: flex-end;
+  text-align: center;
+}
+
+.border-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /*border: 1px solid black;*/
+}
+
+.text-p {
+  text-align: left;
+  font-family: "Arial";
+  font-size: 25px;
+  line-height: 29px;
+  letter-spacing: 0.05em;
+  color: #000000;
+  padding: 20px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f8bfc7;
+}
+
+.footter-text {
+  padding: 50px;
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 57px;
+  color: #ffffff;
+}
