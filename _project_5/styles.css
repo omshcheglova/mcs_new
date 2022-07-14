@@ -40,7 +40,7 @@ a:link {
   text-decoration: none;
 }
 
-.text-background {
+/*.text-background {
   display: flex;
   position: absolute;
   top: 140px;
@@ -59,13 +59,28 @@ a:link {
   align-items: center;
   justify-content: center;
   color: #e50043;
-}
+}*/
 
 .hero {
-  position: absolute;
-  top: 1140px;
-  justify-content: space-between;
-  align-content: space-between;
+  margin-top: 140px; 
+
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+
+  background: url("images/evian_origins_logo.png") no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 1000px;
+}
+
+.hero__title {
+  color: #e50043;
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 100px;
+  line-height: 115px;
 }
 
 .border {
