@@ -1,0 +1,127 @@
+* {
+  /*margin: 0;
+  padding: 0;*/
+  box-sizing: border-box;
+}
+
+.section {
+  display: flex;
+  background-color: #f8bfc7;
+  height: 90px;
+  justify-content: space-between;
+  align-content: center;
+  /*border: 1px solid #000000;*/
+}
+
+.section-menu {
+  display: flex;
+}
+
+.section h1,
+.section-menu h1 {
+  font-family: "Helvetica";
+  font-size: 20px;
+  line-height: 23px;
+  padding: 40px;
+  color: #000000;
+  /*border: 1px solid #000000;*/
+}
+
+.section-text {
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  padding: 40px;
+  color: #ffffff;
+}
+
+.text-road {
+  height: 90px;
+  font-family: "Helvetica";
+  font-size: 50px;
+  line-height: 57px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  background-color: #336fd1;
+  color: #feb700;
+}
+
+.main-page {
+  background: url("images/background.svg") no-repeat;
+  background-size: cover;
+
+  width: 100%;
+  height: 643px;
+}
+
+.speaker-form {
+  background: #f8bfc7;
+  border: 3px solid #ffffff;
+  border-radius: 20px;
+  padding: 50px;
+}
+
+.form-row {
+  margin-bottom: 40px;
+  padding: 10px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.form-row input[type="text"],
+.form-row input[type="email"] {
+  font-family: "Times New Roman";
+  font-size: 20px;
+  line-height: 23px;
+  color: #ffffff;
+  background: #f8bfc7;
+  border: 1px solid #ffffff;
+}
+
+.form-row input[type="text"]:invalid,
+.form-row input[type="email"]:invalid {
+  border: 1px solid #d55c5f;
+  color: #d55c5f;
+  box-shadow: none;
+}
+
+.form-row label {
+  margin-bottom: 15px;
+  font-family: "Helvetica";
+  font-size: 20px;
+  line-height: 23px;
+
+  color: #ffffff;
+}
+
+.form-row-button {
+  padding: 50px;
+  font-size: 16px;
+  font-weight: bold;
+
+  background: #feb700;
+  border: 3px solid #ffffff;
+  border-radius: 30px;
+  color: #ffffff;
+
+  padding: 10px 40px;
+  cursor: pointer;
+}
+
+/*********************************/
+@media only screen and (min-width: 700px) {
+  .speaker-form {
+    width: 350px;
+  }
+
+  .form-row {
+    flex-direction: row;
+    align-items: flex-start;
+    margin-bottom: 20px;
+  }
+}
